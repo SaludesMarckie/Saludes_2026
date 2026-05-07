@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Diary</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Times New Roman", serif;
+}
+
+body{
+    background-color:maroon;
+    color:#fff;
+    min-height:100vh;
+    padding:40px 20px;
+}
+
+header{
+    width:100%;
+    background:maroon;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    border-bottom:3px solid white;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:32px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:40px;
+    font-size:22px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd6d6;
+}
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+.title{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:40px;
+    color:#ffd6d6;
+    letter-spacing:3px;
+}
+
+.diary-entry{
+    background:rgba(255,255,255,0.08);
+    border-left:6px solid #ffd6d6;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:15px;
+    backdrop-filter:blur(5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    transition:0.3s ease;
+}
+
+.diary-entry:hover{
+    transform:translateY(-5px);
+    background:rgba(255,255,255,0.12);
+}
+
+.diary-entry h3{
+    margin-bottom:15px;
+    color:#ffeaea;
+    font-size:28px;
+}
+
+.diary-entry p{
+    line-height:1.8;
+    font-size:18px;
+    color:white;
+}
+
+@media(max-width:768px){
+    .title{
+        font-size:35px;
+    }
+
+    .diary-entry h3{
+        font-size:22px;
+    }
+
+    .diary-entry p{
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">My Diary</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Diary</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h1 class="title">📖 My Diary</h1>
+
+    <div class="diary-entry">
+        <h3>𝕿𝖍𝖊 𝕾𝖊𝖓𝖙𝖎𝖒𝖊𝖓𝖙𝖆𝖑 & 𝕲𝖗𝖆𝖙𝖊𝖋𝖚𝖑</h3>
+
+        <p>
+            Looking back at Cheerdance Battle 2025, my heart is so full.
+            To my amazing groupmates: thank you for every late-night practice,
+            every bruise we laughed off, and for pushing me to be better.
+            We didn’t just build a routine — we built a family.
+            So proud of what we achieved on that floor!
+        </p>
+    </div>
+
+    <div class="diary-entry">
+        <h3>𝕿𝖍𝖊 𝕴 𝕭𝖚𝖎𝖑𝖙 𝕾𝖔𝖒𝖊𝖙𝖍𝖎𝖓𝖌 𝕽𝖊𝖆𝖑</h3>
+
+        <p>
+            Stepping out of my AppDev comfort zone and into the world of hardware
+            programming for the first time! There’s something incredibly rewarding
+            about writing code that doesn't just live on a screen, but actually
+            interacts with the physical world.
+            Learning to manage registers and GPIO pins instead of just UI
+            components has been a steep but exciting learning curve.
+            The first time that LED blinked, I was hooked!
+        </p>
+    </div>
+
+    <div class="diary-entry">
+        <h3>𝕿𝖍𝖊 𝕲𝖗𝖆𝖙𝖊𝖋𝖚𝖑 & 𝕽𝖊𝖋𝖑𝖊𝖈𝖙𝖎𝖛𝖊</h3>
+
+        <p>
+            Huge thanks to Sir A for an insightful session in our Accounting
+            class today! Dealing with ledgers and financial statements can be
+            overwhelming, but his way of breaking down complex concepts makes
+            the debits and credits finally click.
+            Slowly but surely mastering the language of business!
+        </p>
+    </div>
+
+    <div class="diary-entry">
+        <h3>𝕿𝖍𝖊 "𝕲𝖗𝖎𝖓𝖉" 𝕻𝖊𝖗𝖘𝖕𝖊𝖈𝖙𝖎𝖛𝖊</h3>
+
+        <p>
+            They see the 5-minute routine, but they don’t see the weeks of
+            rehearsals that built it.
+            Rehearsing for the Cheerdance Battle has been an emotional
+            rollercoaster, but there’s no squad I’d rather be tired with.
+            We’re hitting our stunts, finding our rhythm, and becoming one
+            heartbeat. The battle is coming, and we’re ready to leave it all
+            on the mats.
+        </p>
+    </div>
+
+    <div class="diary-entry">
+        <h3>𝖕𝖔𝖜𝖊𝖗</h3>
+
+        <p>
+            The calm before the storm is just us hitting the mats over and over
+            again until everything is perfect.
+            The bruises and the sweat are starting to pay off, and I can feel
+            the energy building up for the big day.
+            Let’s go, team!
+        </p>
+    </div>
+
+    <div class="diary-entry">
+        <h3>𝖔𝖓𝖊 𝖋𝖔𝖗 𝖙𝖍𝖊 𝖙𝖊𝖆𝖒</h3>
+
+        <p>
+            We finally left it all on the floor, and the feeling is honestly
+            indescribable.
+            All those months of training led to those few minutes, and I
+            couldn’t be prouder of how we showed up.
+            Cheerdance Battle 2026 was definitely one for the books.
+        </p>
+    </div>
+
+    <div class="diary-entry">
+        <h3>𝕳𝖆𝖗𝖉 𝖜𝖔𝖗𝖐 𝖙𝖊𝖆𝖒</h3>
+
+        <p>
+            Officially holding our certificate of accomplishment for the AppDev
+            project, and it feels so good.
+            All the late nights and endless bug fixing finally turned into
+            something tangible.
+            So proud of this team for pushing through the finish line.
+        </p>
+    </div>
+
+    <div class="diary-entry">
+        <h3>𝕬 𝖇𝖎𝖌 𝖂 𝖋𝖔𝖗 𝖙𝖍𝖊 𝖙𝖊𝖆𝖒</h3>
+
+        <p>
+            To the best AppDev partners I could have asked for: thank you for
+            all the hard work and late-night grinds we went through to finish
+            this project.
+            We faced so many bugs and challenges, but we never gave up.
+            Seeing the final result is such a win for all of us.
+            It was an honor building this with you guys, and I’m definitely
+            going to miss our sessions.
+            Good luck with your next goals, and I hope our paths cross again
+            in another project soon.
+            Keep coding and stay amazing.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
